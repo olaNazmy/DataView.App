@@ -1,0 +1,6 @@
+@DataView.API_HostAddress = http://localhost:5299
+
+GET {{DataView.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
