@@ -1,7 +1,7 @@
-
+using DataView.Domain.Entities;
+using DataView.Infrastructure.Data;
 using DataView.Application.Services;
 using DataView.Domain.Interfaces;
-using DataView.Infrastructure.Data;
 using DataView.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 

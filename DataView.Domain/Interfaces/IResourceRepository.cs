@@ -10,10 +10,10 @@ namespace DataView.Domain.Interfaces
     public interface IResourceRepository
     {
         Task<IEnumerable<Resource>> GetPagedAsync(int page, int pageSize);
-
-        //Task<Resource?> GetByIdAsync(int id);
         Task AddAsync(Resource resource);
         Task UpdateAsync(Resource resource);
         Task DeleteAsync(int id);
+
+        //Task<Resource?> GetByIdAsync(int id);
     }
 }
